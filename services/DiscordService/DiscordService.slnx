@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DiscordService.API/DiscordService.API.csproj" />
+  <Project Path="DiscordService.Data/DiscordService.Data.csproj" />
+  <Project Path="DiscordService.Services/DiscordService.Services.csproj" />
+</Solution>
