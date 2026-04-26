@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace DiscordService.Services;
+namespace BeaconGateway.Services;
 
 public static class ServicesRegister
 {
     public static void RegisterServices(this IServiceCollection serviceCollection)
     {
-        // servicesCollection.AddScoped<IService,Service>();
+        serviceCollection.AddScoped<>()
     }
 }

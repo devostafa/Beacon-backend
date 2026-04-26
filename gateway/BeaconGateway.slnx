@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BeaconGateway.API/BeaconGateway.API.csproj" />
+  <Project Path="BeaconGateway.Data/BeaconGateway.Data.csproj" />
+  <Project Path="BeaconGateway.Services/BeaconGateway.Services.csproj" />
+</Solution>

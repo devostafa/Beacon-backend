@@ -10,13 +10,4 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5"/>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Clients\" />
-      <Folder Include="Routes\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\ChatService.Services\ChatService.Services.csproj" />
-    </ItemGroup>
-
 </Project>
