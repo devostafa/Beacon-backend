@@ -1,6 +1,6 @@
 ﻿namespace BeaconGateway.Services.Clients;
 
-public class DiscordServiceClient
+public class DiscordServiceClient : IDiscordServiceClient
 {
     
 }

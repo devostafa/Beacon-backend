@@ -1,6 +1,6 @@
 ﻿namespace BeaconGateway.Services.Clients;
 
-public class ChatServiceClient : IChatServiceClient
+public interface IDiscordServiceClient
 {
     
 }

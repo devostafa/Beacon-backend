@@ -10,13 +10,6 @@ var config = builder.Configuration;
 
 builder.Services.AddOpenApi();
 
-builder.Services.AddHttpClient<IBeaconLLMClient, BeaconLLMClient>(client =>
-{
-    client.BaseAddress = new Uri(config["BeaconLLM:BaseUrl"]);
-    client.Timeout = TimeSpan.FromSeconds(config.GetValue<int>("BeaconLLM:TimeoutSeconds"));
-    client.DefaultRequestHeaders.Add("Accept", "application/json");
-});
-
 builder.Services.RegisterServices();
 
 var app = builder.Build();
