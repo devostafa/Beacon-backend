@@ -2,12 +2,10 @@
 
 public static class GatewayEndpoint
 {
-    public static void MapGtaewayEndpoint(this IEndpointRouteBuilder app)
+    public static void MapGatewayEndpoints(this IEndpointRouteBuilder app)
     {
-        app.MapPost("/api/chat", async (HttpContext ctx, IHttpForwarder forwarder) =>
+        app.MapPost("/api/chat", async () =>
             {
-                
-                await forwarder.SendAsync(ctx, destination, ctx.RequestServices.GetRequiredService<HttpMessageInvoker>());
             })
             .RequireAuthorization();
     }
