@@ -1,6 +1,6 @@
 ﻿namespace BeaconGateway.Services.Clients;
 
-public class IChatServiceClient
+public interface IChatServiceClient
 {
-    public Task<bool> SendPromptAsync(PromptModel prompt);
+    public Task<bool> SendPromptAsync(PromptRecord prompt);
 }
